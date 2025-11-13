@@ -1,1 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Roopchandh Fishes — Sustainable Aquaculture</title>
+  <meta name="description" content="Roopchandh Fishes: sustainable fish aquaculture, hatchery & supply, technical consulting, and farm-to-market services." />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo="> <!-- placeholder favicon -->
+  <style>
+    /* Simple, modern responsive CSS — single-file */
+    :root{
+      --accent:#0ea5a4; /* teal */
+      --dark:#04293a;
+      --muted:#64748b;
+      --card:#f8fafc;
+      --radius:12px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;color:var(--dark);background:linear-gradient(180deg,#f7f9fb,white);line-height:1.5}
+    .container{max-width:1100px;margin:0 auto;padding:28px}
+
+    header{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+    .logo{display:flex;gap:12px;align-items:center}
+    .logo .mark{width:52px;height:52px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#06b6d4);display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+    nav a{margin-left:18px;color:var(--muted);text-decoration:none}
+    nav a:hover{color:var(--dark)}
+
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;padding:28px 0}
+    .hero h1{font-size:34px;margin:0 0 12px}
+    .hero p{margin:0 0 18px;color:var(--muted)}
+    .btn{display:inline-block;padding:12px 18px;border-radius:10px;background:var(--accent);color:white;text-decoration:none;font-weight:600}
+
+    .card{background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:0 6px 18px rgba(2,6,23,0.06)}
+    .stats{display:flex;gap:12px}
+    .stat{flex:1;text-align:center}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:18px}
+
+    section{padding:28px 0}
+    h2{margin:0 0 12px}
+    .species .item{padding:14px;border-radius:10px;background:linear-gradient(180deg,#fff,#f7fbfd);box-shadow:0 6px 16px rgba(2,6,23,0.04)}
+    .species img{width:100%;height:160px;object-fit:cover;border-radius:8px}
+
+    .two-col{display:grid;grid-template-columns:1fr 360px;gap:20px}
+    .features li{margin-bottom:10px}
+
+    footer{border-top:1px solid #eef2f6;padding:28px 0;margin-top:28px;color:var(--muted)}
+
+    /* responsive */
+    @media (max-width:900px){
+      .hero{grid-template-columns:1fr}
+      .two-col{grid-template-columns:1fr}
+      nav{display:none}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <div class="mark">RF</div>
+        <div>
+          <div style="font-weight:700">Roopchandh Fishes</div>
+          <div style="font-size:12px;color:var(--muted)">Sustainable Aquaculture & Hatchery</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#species">Species</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div>
+        <h1>Roopchandh Fishes — sustainable aquaculture solutions</h1>
+        <p>We raise healthy, high-yield fish using eco-friendly techniques. From hatchery to market, we deliver quality fingerlings, consulting, and turnkey pond systems for smallholders and commercial farms.</p>
+        <a class="btn" href="#contact">Get a quote</a>
+
+        <div style="margin-top:22px" class="card">
+          <div style="font-size:14px;color:var(--muted)">Our Capabilities</div>
+          <div class="grid" style="margin-top:12px">
+            <div>
+              <strong>Hatchery & Fingerlings</strong>
+              <div style="font-size:13px;color:var(--muted)">High survival, disease-screened stock</div>
+            </div>
+            <div>
+              <strong>Feed & Nutrition</strong>
+              <div style="font-size:13px;color:var(--muted)">Farm-tailored feeding plans</div>
+            </div>
+            <div>
+              <strong>Water Management</strong>
+              <div style="font-size:13px;color:var(--muted)">Water quality monitoring & aeration setups</div>
+            </div>
+            <div>
+              <strong>Market Linkages</strong>
+              <div style="font-size:13px;color:var(--muted)">Buyers & cold-chain partners</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1520431647636-7f9b1c2b5b63?auto=format&fit=crop&w=800&q=60" alt="Fish farm" style="width:100%;border-radius:8px;margin-bottom:12px" />
+          <div style="font-weight:700">Quick facts</div>
+          <div class="stats" style="margin-top:12px">
+            <div class="stat"><div style="font-size:18px">5+</div><div style="font-size:12px;color:var(--muted)">Species</div></div>
+            <div class="stat"><div style="font-size:18px">200K</div><div style="font-size:12px;color:var(--muted)">Fingerlings/month</div></div>
+            <div class="stat"><div style="font-size:18px">100+</div><div style="font-size:12px;color:var(--muted)">Happy farmers</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="card">
+        <h2>About Roopchandh Fishes</h2>
+        <p class="muted">Roopchandh Fishes is a family-run aquaculture business focused on responsible fish production. We combine traditional knowledge with modern water-quality monitoring and biosecurity to increase yields while reducing environmental impact.</p>
+        <div class="two-col" style="margin-top:16px">
+          <div>
+            <h3>Our approach</h3>
+            <ul class="features">
+              <li>Selective broodstock and disease screening</li>
+              <li>Site-specific pond design and water management</li>
+              <li>Farmer training and cooperative marketing</li>
+              <li>Traceability from hatchery to buyer</li>
+            </ul>
+          </div>
+          <aside class="card">
+            <strong>Vision</strong>
+            <p style="font-size:14px;color:var(--muted)">To be the region's most trusted provider of sustainable aquaculture stock and services.</p>
+            <strong>Phone</strong>
+            <p style="margin:6px 0">+91 98765 43210</p>
+            <strong>Email</strong>
+            <p style="margin:6px 0">info@roopchandhfishes.example</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="species" class="species">
+      <h2>Species we cultivate</h2>
+      <div class="grid">
+        <div class="item card">
+          <img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?auto=format&fit=crop&w=800&q=60" alt="Common carp"/>
+          <div style="margin-top:10px"><strong>Common Carp (Cyprinus carpio)</strong>
+          <div style="font-size:13px;color:var(--muted)">Robust, good growth in earthen ponds.</div></div>
+        </div>
+
+        <div class="item card">
+          <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=800&q=60" alt="Tilapia"/>
+          <div style="margin-top:10px"><strong>Tilapia (Oreochromis niloticus)</strong>
+          <div style="font-size:13px;color:var(--muted)">Fast-growing, suitable for intensive systems.</div></div>
+        </div>
+
+        <div class="item card">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=60" alt="Catla"/>
+          <div style="margin-top:10px"><strong>Catla (Catla catla)</strong>
+          <div style="font-size:13px;color:var(--muted)">Popular market species in mixed carp polyculture.</div></div>
+        </div>
+
+        <div class="item card">
+          <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=60" alt="Rohu"/>
+          <div style="margin-top:10px"><strong>Rohu (Labeo rohita)</strong>
+          <div style="font-size:13px;color:var(--muted)">High-value carp, great consumer demand.</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Hatchery & Fingerlings</h3>
+          <p style="color:var(--muted);font-size:14px">Supply of disease-free fingerlings sized to your stocking plan. Batch testing available on request.</p>
+        </div>
+        <div class="card">
+          <h3>Farm Design & Installation</h3>
+          <p style="color:var(--muted);font-size:14px">Pond layout, aeration, inlet/outlet structures and silage for maximum production efficiency.</p>
+        </div>
+        <div class="card">
+          <h3>Consulting & Training</h3>
+          <p style="color:var(--muted);font-size:14px">Hands-on farmer training, stocking & feed plans, and disease management protocols.</p>
+        </div>
+        <div class="card">
+          <h3>Buyback & Market Linkages</h3>
+          <p style="color:var(--muted);font-size:14px">We connect you with buyers and cold-chain partners to get the best price for your harvest.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="water-quality">
+      <h2>Water Quality — Quick Checklist</h2>
+      <div class="card">
+        <ul>
+          <li>pH: 6.5 — 8.5</li>
+          <li>Dissolved Oxygen: >5 mg/L (aeration recommended below 5 mg/L)</li>
+          <li>Ammonia: < 0.02 mg/L (total ammonia nitrogen)</li>
+          <li>Regular sludge removal & periodic pond drying</li>
+        </ul>
+        <p style="font-size:13px;color:var(--muted)">Need lab-quality tests? Ask about our water testing kits and monthly monitoring plans.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact & Location</h2>
+      <div class="two-col">
+        <form class="card" action="mailto:info@roopchandhfishes.example" method="post" enctype="text/plain">
+          <label style="display:block;margin-bottom:8px">Name</label>
+          <input name="name" required style="width:100%;padding:10px;border-radius:8px;border:1px solid #e6eef6;margin-bottom:10px" />
+          <label style="display:block;margin-bottom:8px">Phone / Email</label>
+          <input name="contact" required style="width:100%;padding:10px;border-radius:8px;border:1px solid #e6eef6;margin-bottom:10px" />
+          <label style="display:block;margin-bottom:8px">Message</label>
+          <textarea name="message" rows="5" style="width:100%;padding:10px;border-radius:8px;border:1px solid #e6eef6"></textarea>
+          <div style="margin-top:12px"><button class="btn" type="submit">Send message</button></div>
+        </form>
+
+        <aside class="card">
+          <strong>Office</strong>
+          <p style="margin:6px 0;color:var(--muted)">Village / Town, District, State — India</p>
+          <strong>Phone</strong>
+          <p style="margin:6px 0">+91 98765 43210</p>
+          <strong>Email</strong>
+          <p style="margin:6px 0">info@roopchandhfishes.example</p>
+
+          <div style="margin-top:12px">
+            <strong>Follow us</strong>
+            <div style="display:flex;gap:8px;margin-top:8px">
+              <a href="#">Facebook</a>
+              <a href="#">Instagram</a>
+              <a href="#">WhatsApp</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+        <div style="font-weight:700">Roopchandh Fishes</div>
+        <div style="color:var(--muted)">© <span id="year"></span> Roopchandh Fishes — All rights reserved.</div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // small script: update year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
 
